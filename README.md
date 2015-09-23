@@ -1,6 +1,6 @@
 # Meerkats Javascript Styleguide
 
-It's based very closely on AirBNB but for Angular and NodeJS not React.
+It's based very closely on Airbnb but for Node and Angular, not React.
 
 ## Getting Started
 
@@ -14,11 +14,12 @@ Add an `.eslintrc` file to the root of your project that looks like
 
 ```json
 {
-  "extends": "airbnb",
+  "extends": "meerkats",
+  // Customize as needed!
+  // "rules": {
+  // }
 }
 ```
-
-Customize as needed!
 
 ## Author
 
