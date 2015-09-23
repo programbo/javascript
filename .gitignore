@@ -1,0 +1,32 @@
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+*.ini~
+.DS_Store
+
+pids
+logs
+results
+
+# vendor modules (npm + bower)
+
+npm-debug.log
+node_modules
+vendor/
+.vagrant/
+
+# compiles assets
+
+.sass-cache/
+public/stylesheets/*.css
+public/scripts/app.*.js
+public/*.html
+public/components/*.html
+public/stylesheets/*.map
+public/scripts/*.map
+public/scripts/modernizr-custom.min.js
