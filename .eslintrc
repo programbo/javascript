@@ -1,5 +1,7 @@
 {
-  "extends": "airbnb",
+  "plugins": [
+    "shadow-exception"
+  ],
   "rules": {
     "camelcase": [2, {
         "properties": "always"
@@ -14,6 +16,13 @@
         "anonymous": "always",
         "named": "never"
       }
-    ]
+    ],
+    "shadow-exception/no-shadow": [2, {
+      "exceptions": {
+        "err": true,
+        "callback": true
+      }
+    }],
+    "no-shadow": 0
   }
 }
