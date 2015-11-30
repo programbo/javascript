@@ -22,7 +22,7 @@ Add an `.eslintrc` file to the root of your project that looks like
 ```
 
 ## Upgrading from 1.0.4
-You will need to remove from your packages.json:
+You will need to remove from your project's packages.json:
 ```
 "eslint-plugin-shadow-exception": "^1.1.2",
 ```
