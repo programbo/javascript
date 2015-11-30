@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meerkats",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A katty way to script",
   "repository": {
     "type": "git",
@@ -26,6 +26,5 @@
     "extend": "^3.0.0"
   },
   "peerDependencies": {
-    "eslint-plugin-shadow-exception": "^1.1.2"
   }
 }
