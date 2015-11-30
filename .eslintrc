@@ -1,7 +1,4 @@
 {
-  "plugins": [
-    "shadow-exception"
-  ],
   "rules": {
     "brace-style": [2,
       "stroustrup", {
@@ -28,12 +25,6 @@
         "named": "never"
       }
     ],
-    "shadow-exception/no-shadow": [2, {
-      "exceptions": {
-        "err": true,
-        "callback": true
-      }
-    }],
-    "no-shadow": 0
+    "no-shadow": [2, {"allow": ["err", "callback"]}]
   }
 }
