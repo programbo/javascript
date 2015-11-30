@@ -21,6 +21,14 @@ Add an `.eslintrc` file to the root of your project that looks like
 }
 ```
 
+## Upgrading from 1.0.4
+You will need to remove from your packages.json:
+```
+"eslint-plugin-shadow-exception": "^1.1.2",
+```
+
+This is no longer required as it's built into eslint (and causes an npm install to fail)
+
 ## Author
 
 This repo is created and maintained by Meerkats The Brand Leadership Company in Subiaco, Western Australia
