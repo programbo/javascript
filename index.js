@@ -1,5 +1,7 @@
+const airbnbEslintConfig = require('eslint-config-airbnb');
+const extend = require('extend');
 const fs = require('fs');
 const path = require('path');
-const config = JSON.parse(fs.readFileSync(path.join(__dirname, '.eslintrc')));
+const overrideConfig = JSON.parse(fs.readFileSync(path.join(__dirname, '.eslintrc')));
 
-module.exports = config;
+module.exports = extend(true, {}, airbnbEslintConfig, overrideConfig);

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meerkats",
-  "version": "2.0.3",
+  "version": "2.0.0",
   "description": "A katty way to script",
   "repository": {
     "type": "git",
