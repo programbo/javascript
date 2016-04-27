@@ -1,19 +1,4 @@
 {
-  "parser": "babel-eslint",
-  "extends": "airbnb",
-  "plugins": [
-    "react"
-  ],
-  "settings": {
-    "react": {
-      "pragma": "React"
-    }
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
   "rules": {
     "callback-return": [2, ["callback", "next"]],
     "camelcase": [2, { "properties": "always" }],
