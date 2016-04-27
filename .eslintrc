@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb-base",
+  "extends": "airbnb",
   "rules": {
     "callback-return": [2, ["callback", "next"]],
     "camelcase": [2, { "properties": "always" }],
